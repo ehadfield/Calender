@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+    <title>Appointments</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hip2It Jam$</h1>
+      <h2>Holla at yo boi</h2>
+      <form id="formOne">
+        <div class="form-group">
+          <label for="yourName">Name:</label>
+          <input id="yourName" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="reason">Why You Wanna See Me Doe:</label>
+          <input id="reason" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="date">When You Wanna See Me Doe:</label>
+          <input id="date" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="time">At What Time You Wanna See Me Doe:</label>
+          <input id="time" class="form-control" type="text">
+        </div>
+        <button id="myBtn" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Take my info, dawg!</button>
+
+      </form>
+
+      <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="document">
+
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Success!</h5>
+            </div>
+            <div class="modal-body">
+              <p>Appointment made.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </body>
+  </html>
